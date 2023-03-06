@@ -6,3 +6,9 @@ h1 {
   font-family: 'Roboto', sans-serif;
   text-align: center
 }
+
+#centre {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
