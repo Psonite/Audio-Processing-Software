@@ -8,3 +8,18 @@ h1 {
   text-align: center
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #222;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #333;
+}
