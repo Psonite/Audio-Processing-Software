@@ -5,16 +5,17 @@ body {
 
 h1 {
   font-family: 'Roboto', sans-serif;
-  text-align: center
+  text-align: center;
 }
 
 h2 {
   font-family: 'Roboto', sans-serif;
+  text-align: left;
 }
 
 h3 {
   font-family: 'Roboto', sans-serif;
-  text-align: center
+  text-align: center;
 }
 
 ::-webkit-scrollbar {
