@@ -21,6 +21,10 @@ p {
  font-size: 25px; 
 }  
 
+.filler {
+  min-height: 100vh;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }
