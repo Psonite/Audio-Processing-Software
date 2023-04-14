@@ -58,59 +58,61 @@
       </nav>
     </div>
     
-    <div class="row filler">
-      <div class="col-sm-2"></div>
-      <div class="col-sm-8">
-        <!-- Text -->
-        <div class="container-fluid p-5 text-black">
-          <p>Don’t hesitate to contact me through my email or the form.</p>
-          <p>General Inquiries and Bug Reports: <a href="mailto:psonitemusic2@gmail.com">psonitemusic2@gmail.com</a></p>
-          <p>I will try to get back to you within a week however don't hesitate to contact me on any of my socials as well.</p>
+    <div class="container-fluid p-5 text-black filler">
+      <div class="row filler">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <!-- Text -->
+          <div class="container-fluid p-5 text-black">
+            <p>Don’t hesitate to contact me through my email or the form.</p>
+            <p>General Inquiries and Bug Reports: <a href="mailto:psonitemusic2@gmail.com">psonitemusic2@gmail.com</a></p>
+            <p>I will try to get back to you within a week however don't hesitate to contact me on any of my socials as well.</p>
 
-          <!-- Form -->
-          <form action="Contact.html">
-            <!-- Enter email-->
-            <div class="form-floating mb-3 mt-3">
-              <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
-              <label for="email">Email</label>
-            </div>
-            <!-- Select Message type-->
-            <div class="row mb-3 mt-3">
-              <div class="col">
-                <div class="form-floating">
-                  <select class="form-select" id="sel1" name="sellist">
-                    <option>Technical Support</option>
-                    <option>Bug Report</option>
-                    <option>Feature Request</option>
-                    <option>General Inquiry</option>
-                  </select>
-                  <label for="sel1" class="form-label">Message Type:</label>
+            <!-- Form -->
+            <form action="Contact.html">
+              <!-- Enter email-->
+              <div class="form-floating mb-3 mt-3">
+                <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                <label for="email">Email</label>
+              </div>
+              <!-- Select Message type-->
+              <div class="row mb-3 mt-3">
+                <div class="col">
+                  <div class="form-floating">
+                    <select class="form-select" id="sel1" name="sellist">
+                      <option>Technical Support</option>
+                      <option>Bug Report</option>
+                      <option>Feature Request</option>
+                      <option>General Inquiry</option>
+                    </select>
+                    <label for="sel1" class="form-label">Message Type:</label>
+                  </div>
+                </div>
+                <!-- Select plugin-->
+                <div class="col">
+                  <div class="form-floating">
+                    <select class="form-select" id="sel1" name="sellist">
+                      <option>Delay</option>
+                      <option>Distortion</option>
+                      <option>Flanger</option>
+                      <option>Compressor</option>
+                    </select>
+                    <label for="sel1" class="form-label">Plugin:</label>
+                  </div>
                 </div>
               </div>
-              <!-- Select plugin-->
-              <div class="col">
-                <div class="form-floating">
-                  <select class="form-select" id="sel1" name="sellist">
-                    <option>Delay</option>
-                    <option>Distortion</option>
-                    <option>Flanger</option>
-                    <option>Compressor</option>
-                  </select>
-                  <label for="sel1" class="form-label">Plugin:</label>
-                </div>
+              <!-- Enter Message-->
+              <div class="form-floating mb-3 mt-3">
+                <textarea class="form-control" id="comment" name="text" placeholder="Comment goes here"></textarea>
+                <label for="comment">Comments</label>
               </div>
-            </div>
-            <!-- Enter Message-->
-            <div class="form-floating mb-3 mt-3">
-              <textarea class="form-control" id="comment" name="text" placeholder="Comment goes here"></textarea>
-              <label for="comment">Comments</label>
-            </div>
-            <!-- Submit Button-->
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+              <!-- Submit Button-->
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
         </div>
+        <div class="col-sm-2"></div>
       </div>
-      <div class="col-sm-2"></div>
     </div>
     
     <!-- Contact / FAQ bar -->
