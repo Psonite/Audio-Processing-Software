@@ -3,7 +3,6 @@
 #include "IControls.h"
 #include "ProcessDelay.h"
 #include "Biquad.h"
-#include "ProcessDistortion.h"
 
 // Instance imported classes
 ProcessDelay BL;
