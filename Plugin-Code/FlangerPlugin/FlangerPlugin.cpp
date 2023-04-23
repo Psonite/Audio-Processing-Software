@@ -87,7 +87,7 @@ void FlangerPlugin::ProcessBlock(sample** inputs, sample** outputs, int nFrames)
       LPS = (LPS + Lps1 + Lps2 + Lps3) / 4;
       Lps3 = Lps2;
       Lps2 = Lps1;
-      Lps1 = RPS;
+      Lps1 = LPS;
 
       RPS = (RPS + Rps1 + Rps2 + Rps3) / 4;
       Rps3 = Rps2;
