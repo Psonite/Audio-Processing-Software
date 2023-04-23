@@ -74,8 +74,8 @@ double Oscillator::generate()
     break;
 
   case (OscillatorMode::TRIANGLE):
-    double value = -1.0 + (2.0 * mPhase / twoPI);
-    output = 2.0 * (fabs(value) - 0.5);
+    output = -1.0 + (2.0 * mPhase / twoPI);
+    output = 2.0 * (fabs(output) - 0.5);
     mPhase += mPhaseIncrement;
     while (mPhase >= twoPI)
     {
